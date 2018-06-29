@@ -7,10 +7,11 @@ class ProdutosController < ApplicationController
 
     def create
         valores = params.require(:produto).permit :nome, :descricao, :quantidade, :preco
-        nome = params["nome"]
-        descricao = params["descricao"]
-        quantidade = params["quantidade"]
-        preco = params["preco"]
         produto = Produto.create valores
+        redirect_to root_url
+    end
+
+    def destroy
+        redirect_to root_url
     end
 end

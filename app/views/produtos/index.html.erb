@@ -14,6 +14,7 @@
             <td><%= produto.descricao %></td>
             <td><%= produto.preco %></td>
             <td><%= produto.quantidade %></td>
+            <td><a href="/produtos/<%= produto.id %>/remove">Remover<a/></td>
         </tr>
         <% end %>
     </tbody>
