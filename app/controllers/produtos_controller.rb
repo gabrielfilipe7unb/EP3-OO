@@ -11,7 +11,7 @@ class ProdutosController < ApplicationController
 
     def busca
       @nome_a_buscar = "%#{params[:nome]}%"
-      @produtos = Produto.where "nome like ?", nome_a_buscar
+      @produtos = Produto.where "nome like ?", @nome_a_buscar
     end
 
     def create
