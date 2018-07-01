@@ -219,6 +219,7 @@ DEPENDENCIES
   devise
   devise-i18n
   jbuilder (~> 2.5)
+  jquery-rails
   listen (>= 3.0.5, < 3.2)
   rails (~> 5.2.0)
   rails-i18n (~> 4.0)

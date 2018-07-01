@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.3.3'
 
+gem 'jquery-rails'
+
 gem 'bootstrap_sb_admin_base_v2'
 
 gem 'twitter-bootstrap-rails'
