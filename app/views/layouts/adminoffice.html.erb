@@ -1,19 +1,28 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>LojaEP3</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<html lang="en">
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= stylesheet_link_tag    'adminoffice', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <head>
 
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'adminoffice', 'data-turbolinks-track': 'reload' %>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
 
-  </head>
+      <title>Escambo Administrador</title>
+
+      <title>EscamboApp</title>
+
+      <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+      <%= stylesheet_link_tag    'adminoffice', media: 'all', 'data-turbolinks-track': 'reload' %>
+      <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+      <%= javascript_include_tag 'adminoffice', 'data-turbolinks-track': 'reload' %>
+
+      <%= csrf_meta_tags %>
+    </head>
 
   <body>
     <%= yield %>
   </body>
+
 </html>
