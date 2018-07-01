@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.3.3'
 
+gem 'bootstrap_sb_admin_base_v2'
+
 gem 'twitter-bootstrap-rails'
 # Collecting Locate data for Ruby on Rails
 gem 'rails-i18n', '~> 4.0'
