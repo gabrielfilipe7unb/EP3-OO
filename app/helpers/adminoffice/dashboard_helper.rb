@@ -1,0 +1,2 @@
+module Adminoffice::DashboardHelper
+end
